@@ -1,0 +1,13 @@
+Package: NPSData
+Title: Datasets for the NPS long term data visualization
+Version: 0.1.1
+Authors@R: "Derek Sonderegger <derek.sonderegger@nau.edu> [aut, cre]"
+Description: Datasets used for the NPS long term data visualization. This package will be used during development of the NPS package, but we are keeping the data separate because eventually the data will be stored elsewhere.
+Depends: 
+    R (>= 3.1.0)
+License: GPL 3
+LazyData: true
+RoxygenNote: 5.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
